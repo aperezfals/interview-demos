@@ -1,14 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data.Common;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Backend
+namespace QuickBase.Domain.Repositories
 {
-    public interface IDbManager
+    public interface ICountryApiRepository : ICountryRepository
     {
-        DbConnection getConnection();
+
     }
 }
